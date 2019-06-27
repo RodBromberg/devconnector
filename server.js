@@ -2,7 +2,6 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
-
 // DB Config
 // importing
 const db = require("./config/keys.js").mongoURI;
